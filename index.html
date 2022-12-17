@@ -1,123 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Portfolio website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adrian C.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-	
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Adrian C.</div><br>
+    <div id="links">
+        <a href="#skills">skills</a>
+        <a href="#service">Services</a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+        
+    </div>
+    </div>
 
-	<div class="hero">
-		<nav>
-			<h2 class="logo">Portfolio website</span></h2>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Skills</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-			<a href="#" class="btn">Subscribe</a>
-		</nav>
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Adrian Cinchez<br>
+            <button class="btn_one">Student | Designer</button>
+        </div>
+    </div>
+    </center>
 
-		<div class="content">
-			<h4>Hello, my name is</h4>
-			<h1>Adrian <span>Cinchez</span></h1>
-			<h3>I'am a Web Developer and a Software Programmer Student.</h3>
-			<div class="newslatter">
-				<form>
-					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
-					<input type="submit" name="submit" value="Lets Start">
-				</form>
-			</div>
-		</div>
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>About & Skills.</h1>   
+                 <div>
+                        <p>
+                           JavaScript, HTML5, LaravelPhp, BootStrap, Python 
+                        </p>
+                        <p> Adrian. I'm 21 Years Old Student Software and Web Developer based on Davao City,</p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>works.</h1>
+
+                 <div class="project">
+                 <h2>The Chamber of Commerce</h2>
+                 <div>Been Working for this Project For almost 3 months from a Client Based on Idaho US</div>
+                 <button class="btn_one">visit project</button>
+                </div>
+
+                <div class="project">
+                 <h2>Vapor Films</h2>
+                 <div>Founder and Director 
+                 </div>
+                 <button class="btn_one">visit project</button>
+                 <button class="btn_two">code</button>
+                </div>
+
+             </div>
+             <div id="service">
+                <div class="title">
+                    <h2>Services</h2>
+                </div>
+        
+                <div class="box">
+                    <div class="card">
+                        <i class="fas fa-bars"></i>
+                        <h5>Works</h5>
+                        <div class="pra">
+                            <p>Managed IT Services<br>
+                                Cloud Backup Services<br>
+                                VoIP (Voice Over Internet Protocol)<br>
+                                Data Backup and Restoration<br>
+                                Firewall Services<br>
+                                Cybersecurity Services<br>
+                                </p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <i class="far fa-user"></i>
+                        <h5>Join Us!</h5>
+                        <div class="pra">
+                            <p>If you are intested to become part of our Company Submit your Resume into our Human Resource Department 
+                               
+                            </p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <i class="far fa-bell"></i>
+                        <h5>Get Notified </h5>
+                        <div class="pra">
+                            <p> Get Notified about News in IT World                            </p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+         
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <p>if you are interested in our service fill up the forms below</p>
+                 
+                 <form method="get" action="send.html">
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <!-- <button class="btn_one"  >send</button> -->
+                     <input type="submit" value="Submit" class="btn_one">
+                 </form> 
+                 <div id="details">
+                    <a href= https://www.instagram.com/neeeyneey  class="btn_social" ><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ACinchez" class="btn_social"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adrian-cinchez-32ba90219/" class="btn_social"><i class="fab fa-linkedin  "></i></a>
+                 </div>   
+             </div>
+    </div>
+
+    <div class="contact-me">
+		<p>Download My CV</p>
+		<a class="button-two" href="resume/CINCHEZ RESUME.pdf" download>Click</a>
 	</div>
 
-	<!----Information section---->
-	<section class="about">
-		<div class="main">
-			<img src="img/background.jpg">
-			<div class="about-text">
-				<h2>Adrian C.</h2>
-				<h5>Developer <span>& Designer</span></h5>
-				<p>Hi my name is Adrian. I'm 21 Years Old Student Software Developer based on Davao City, Philippines. I tend to enjoy exploring new things and doesn't want to be stagnant in life. If I want something, I do whatever it takes to achieve it.</p>
-				<button type="button">Let's Talk</button>
-			</div>
-		</div>
-	</section>
-
-	<!-----service section start----------->
-	<div class="service">
-		<div class="title">
-			<h2>Information</h2>
-		</div>
-
-		<div class="box">
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
-				<div class="pra">
-					<p>I made this website to test my skills for web developing this is just a static website </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-user"></i>
-				<h5>Contact Information</h5>
-				<div class="pra">
-					<p>09562995240 
-                    <p>acinchez@yahoo.com
-                        
-                    </p>
-                    </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-bell"></i>
-				<h5>WORK EXPERIENCE</h5>
-				<div class="pra">
-					<p> UNDER CONSTRUCTION
-                    </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!------CI------>
-	<div class="contact-me">
-		<p>Support My Progress</p>
-		<a class="button-two" href="#">Donate Here</a>
-	</div>
-
-	<!------ft start--------->
-	<footer>
-		<p>Adrian M. Cinchez</p>
-		<p>For more Information about me just click my social or contact me in my personal email</p>
-		<div class="social">
-			<a href= https://www.facebook.com/adrian.luci666 ><i class="fab fa-facebook-f"></i></a>
-			<a href= https://www.instagram.com/neeeyneey ><i class="fab fa-instagram"></i></a>
-			<a href= https://github.com/ACinchez><i class="fab fa-github"></i></a>
-		</div>
-		<p class="end">©CopyRight By Adrian Cinchez</p>
-	</footer>
+    <div id="footer">
+       
+©CopyRight 2022 <br><br> <a href="https://github.com/ACinchez">Adrian Cinchez</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
 </body>
 </html>
